@@ -21,7 +21,6 @@ function loadDoc($couch_doc_id){
 }
 
 
-
 $dbconn = pg_connect("host=$PGDB_HOST dbname=$PGDB_NAME user=$PGDB_USER password=") or die('Could not connect: ' . pg_last_error()); 
 
 //First run can take a while on big dbs
@@ -45,7 +44,7 @@ $obj = json_decode($aout, true);
 //print_r($obj['rows']);
 
 if(!isset($obj['rows'])) {
-        die("\nNo rows returned in couchdb: $COUCH_DB \n\n");
+        die("\nNo rows returned in couchdb reply check: $COUCH_DB exists \n\n");
 }
 
 $rows = $obj['rows'];
