@@ -97,7 +97,7 @@ Join the tables:
 
      SELECT id AS thing_id,
       doc->>'name' AS thing_name,
-      jsonb_array_elements(doc->'categories')->>'uuid' AS category_uuid,
+      jsonb_array_elements(doc->'categories')->>'uuid' AS category_uuid
      FROM mytable
      WHERE doc @> '{"type": "Thing"}'
     )
