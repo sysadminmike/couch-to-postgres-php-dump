@@ -82,6 +82,8 @@ Couchdb Thing doc:
     }   
 
 
+Join the tables:
+
 
     WITH categories AS (
      SELECT 
