@@ -34,31 +34,33 @@ Get meta data information from the docs:
 Or something more complex:
 
 Couchdb Settings doc:
-{
-   "_id": "123456300ab77ddbbf8d00f01a7177c4",
-   "name": "Someones Settings",
-   "categories": [
-       {
-           "uuid": "123456300ab77ddbbf8d00f01a51ddea",
-           "name": "Phone",
-       },
-       {
-           "uuid": "123456300ab77ddbbf8d00f01a51c76f",
-           "name": "Email",
-       },
-       {
-           "uuid": "123456300ab77ddbbf8d00f01a51c40e",
-           "name": "Mobile",
-       },
-       {
-           "uuid": "1234560ecdf1977e4a85349b297846d1",
-           "name": "Fax",
-       }
-   ],
-   "type": "Settings"
-}
+
+    {
+       "_id": "123456300ab77ddbbf8d00f01a7177c4",
+       "name": "Someones Settings",
+       "categories": [
+           {
+               "uuid": "123456300ab77ddbbf8d00f01a51ddea",
+               "name": "Phone",
+           },
+           {
+               "uuid": "123456300ab77ddbbf8d00f01a51c76f",
+               "name": "Email",
+           },
+           {
+               "uuid": "123456300ab77ddbbf8d00f01a51c40e",
+               "name": "Mobile",
+           },
+           {
+               "uuid": "1234560ecdf1977e4a85349b297846d1",
+               "name": "Fax",
+           }
+       ],
+       "type": "Settings"
+    }
 
 Couchdb Thing doc:
+
     {
        "_id": "0322ab45e3635521ae916b2a78ac40e5",
        "name": "Record1",
