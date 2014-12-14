@@ -3,7 +3,7 @@ couch-to-postgres-php-dump
 
 Couchdb to PostgreSQL php dump script.
 
-Tansfers couchdb docs to postgres table, can be stopped and will continue from where it left off.
+Syncs couchdb docs to postgres table, can be stopped and will continue from where it left off.
 
 It will also update the postgres table when the couchdb is changed so can be put on a cron job to keep the postgres table in sync with the couchdb - needs jsonb field type in postgres.
 
